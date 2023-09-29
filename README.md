@@ -1,7 +1,8 @@
 # Blog-CMS-PHP
 
-This project use SQL and need following tables:
-CREATE TABLE `posts` (
+<h3>This project use SQL and need following tables:</h3>
+<div>
+  CREATE TABLE `posts` (
   `post_id` int(3) NOT NULL,
   `post_category_id` int(3) NOT NULL,
   `post_title` varchar(255) NOT NULL,
@@ -13,8 +14,11 @@ CREATE TABLE `posts` (
   `post_comment_count` int(3) NOT NULL DEFAULT 0,
   `post_status` varchar(255) NOT NULL DEFAULT 'draft'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+</div>
 
-CREATE TABLE `categories` (
+<div>
+  CREATE TABLE `categories` (
   `cat_id` int(3) NOT NULL,
   `cat_title` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+</div>
