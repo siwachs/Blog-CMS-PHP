@@ -1,0 +1,11 @@
+.custom-icon-size {
+  font-size: 0.8rem;
+}
+
+.well {
+  padding: 0.9375rem;
+  margin-bottom: 1.25rem;
+  background-color: #f8f9fa;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+}
