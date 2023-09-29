@@ -2,7 +2,6 @@
 
 <h3>This project use SQL and need following tables:</h3>
 <br>
-<br>
 <pre>
    CREATE TABLE `posts` (
   `post_id` int(3) NOT NULL,
